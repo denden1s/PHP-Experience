@@ -1,0 +1,25 @@
+body{
+  overflow-x: hidden;
+}
+footer{
+  
+  bottom: 10px;
+  background-color:darkblue;
+  color: white;
+}
+footer > h2{
+  position: relative;
+  left: 38%;
+}
+
+header{
+  background-color:bisque;
+}
+header > h1{
+  position: relative;
+  left: 30%;
+}
+.content{
+  width: max-content;
+  background-color: cornsilk;
+}
