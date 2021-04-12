@@ -1,0 +1,68 @@
+.FormElements{
+    position:absolute;
+    top: 100%;
+    background-color: rgba(66, 2, 241, 0.589);
+    color: white;
+}
+
+.Title{
+    background-image: url("back.jpg");
+    position: absolute;
+    margin-top: 50px;
+    left: 18%;
+    width: 1000px;
+    height: 600px;
+}
+
+input{
+    color:black;
+}
+
+#menu
+{
+    /*Расположение меню по центру*/
+    display: flex;
+    justify-content: center;
+    /*Отключение маркеров от элементов в списке*/
+    list-style:none;
+    /*Ширина меню 100%*/
+    width:100%;
+    /*Установка внутренних отступов*/
+    padding:0;
+    /*Не совсем выравнивание по центру*/
+    margin: auto;
+}
+#menu li
+{
+    font:bold 14px Arial;
+}
+#menu a
+{
+    /*Изменение цвета шрифта*/
+    color:rgb(0, 0, 0);
+    /*Определение элемента блочным*/
+    display:block;
+    /*Высота меню*/
+    height:40px;
+    /*Выравнивание текста в вертикальном направлении*/
+    line-height:36px;
+    /*Установка внутренних отступов*/
+    padding:0px 10px 0px 10px;
+
+    background:rgb(151, 172, 180);
+    /*Для отсутствия линии ссылки*/
+    text-decoration:none;
+}
+#menu a:hover
+{
+    /*Цвет текста при наведении*/
+    color:rgb(0, 0, 0);
+    /*Цвет фона элемента при наведении*/
+    background:rgb(151, 68, 68);
+}
+
+.exit{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
